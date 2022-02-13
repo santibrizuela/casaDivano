@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Casa Divano</title>
+    <!-- Divano icon -->
+    <link rel="icon" href="img/logo.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Divano</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#store">Catálogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#wallet">Cartera</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- Background image -->
+      <div
+        class="p-5 text-center bg-image"
+        
+      >
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-4">Casa Divano</h1>
+              <h4 class="mb-4">Ferretería Industrial y Artículos de Construcción.</h4>
+              <a class="btn btn-outline-light btn-lg m-2" href="#store" role="button"
+              >Catálogo</a
+              >
+              <a class="btn btn-outline-info btn-lg m-2" href="#contact" role="button"
+              >Contactanos</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </header>
+
+    <main>
+      <div class="container-fluid px-0"><!--CREAMOS section EN container PARA Q SEA UN insight container Y TRABAJAR DENTRO DE section CON LA GRID DE BOOTSTRAP-->
+        <!--About SECTION-->
+        <section id="about" class="divider py-3 text-center">
+          <h2>About us</h2>
+
+          <div class="container">
+            <div class="row justify-content-center align-items-center">
+              
+              <div class="col-md-6"><img src="img/home1.jpg" class="img-fluid"></div>
+
+              <div class="col-md-6">
+                <h1>Divano</h1>
+                <h3>Ferretería Industrial</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+
+                <div class="about__btn">
+                  <a class="btn btn-outline-dark btn-lg m-2" href="#store" role="button">
+                    Catálogo
+                  </a>
+                </div>
+            </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!--STORE SECTION-->
+        <section id="store" class="text-center text-white">
+          <h2 class="my-3">Catálogo de Productos</h2>
+
+          <div class="container d-flex store__cards">
+            <div class="row justify-content-center align-items-center">
+
+              <div class="col-md-4">          
+                <div class="card catalogo__item">
+                  <img src="img/amoladora.png" class="card-img-top" alt="item">
+                  <div class="card-body">
+                    <h3 class="card-title">Amoladora</h3>
+                    <div class="d-flex justify-content-between">
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur.</p>
+                      <p class="card-text text-success">$12.000</p>
+                    </div>              
+                    <a href="#contact" class="btn btn-primary">Contacto</a>
+                    <a href="#" class="btn btn-success">What´s App</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">          
+                <div class="card catalogo__item">
+                  <img src="img/allen.png" class="card-img-top" alt="item">
+                  <div class="card-body">
+                    <h3 class="card-title">Anafe eléctrico</h3>
+                    <div class="d-flex justify-content-between">
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur.</p>
+                      <p class="card-text text-success">$12.000</p>
+                    </div>              
+                    <a href="#contact" class="btn btn-primary">Contacto</a>
+                    <a href="#" class="btn btn-success">What´s App</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">          
+                <div class="card catalogo__item">
+                  <img src="img/cajaherram.png" class="card-img-top" alt="item">
+                  <div class="card-body">
+                    <h3 class="card-title">Anafe eléctrico</h3>
+                    <div class="d-flex justify-content-between">
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur.</p>
+                      <p class="card-text text-success">$12.000</p>
+                    </div>              
+                    <a href="#contact" class="btn btn-primary">Contacto</a>
+                    <a href="#" class="btn btn-success">What´s App</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">          
+                <div class="card catalogo__item">
+                  <img src="img/metro.png" class="card-img-top" alt="item">
+                  <div class="card-body">
+                    <h3 class="card-title">Anafe eléctrico</h3>
+                    <div class="d-flex justify-content-between">
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur.</p>
+                      <p class="card-text text-success">$12.000</p>
+                    </div>              
+                    <a href="#contact" class="btn btn-primary">Contacto</a>
+                    <a href="#" class="btn btn-success">What´s App</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">          
+                <div class="card catalogo__item">
+                  <img src="img/cajasherram.png" class="card-img-top" alt="item">
+                  <div class="card-body">
+                    <h3 class="card-title">Anafe eléctrico</h3>
+                    <div class="d-flex justify-content-between">
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur.</p>
+                      <p class="card-text text-success">$12.000</p>
+                    </div>              
+                    <a href="#contact" class="btn btn-primary">Contacto</a>
+                    <a href="#" class="btn btn-success">What´s App</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">          
+                <div class="card catalogo__item">
+                  <img src="img/amoladora.png" class="card-img-top" alt="item">
+                  <div class="card-body">
+                    <h3 class="card-title">Anafe eléctrico</h3>
+                    <div class="d-flex justify-content-between">
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur.</p>
+                      <p class="card-text text-success">$12.000</p>
+                    </div>              
+                    <a href="#contact" class="btn btn-primary">Contacto</a>
+                    <a href="#" class="btn btn-success">What´s App</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            
+          </div>    
+        </section>
+
+
+        <!--PROVEEDORES SECTION-->
+        <section id="proveedores" class="divider text-center text-dark border rounded-5">
+          <h2 class="my-3">Proveedores</h2>
+
+          <div class="container d-flex">
+            <div class="row justify-content-center">
+              <div class="col-6 col-md-4 col-lg-2 wallet__item">
+                <img src="img/cat-PhotoRoom.png" class="img-thumbnail" alt="cat">
+              </div>
+
+              <div class="col-6 col-md-4 col-lg-2 wallet__item">
+                <img src="img/lomanegra-PhotoRoom.png" class="img-thumbnail" alt="lomanegra">
+              </div>
+
+              <div class="col-6 col-md-4 col-lg-2 wallet__item">
+                <img src="img/pampero-PhotoRoom.png" class="img-thumbnail" alt="pampero">
+              </div>
+
+              <div class="col-6 col-md-4 col-lg-2 wallet__item">
+                <img src="img/dewalt-PhotoRoom.png" class="img-thumbnail" alt="dewalt">
+              </div>
+            
+            </div>
+          </div>
+        </section>
+
+        <!--CARTERA SECTION-->
+        
+
+        <section id="wallet" class="text-center text-white">
+          <h2 class="my-3">Medios de pago</h2>
+
+          <div class="container d-flex">
+            <div class="row justify-content-center align-items-center">
+
+              <div class="col-6 col-md-4 col-lg-2 wallet__item">
+                <img src="img/supervielle-PhotoRoom.png" class="img-thumbnail" alt="supervielle">
+              </div>
+
+              <div class="col-6 col-md-4 col-lg-2 wallet__item">
+                <img src="img/galicia-PhotoRoom.png" class="img-thumbnail" alt="galicia">
+              </div>
+
+              <div class="col-6 col-md-4 col-lg-2 wallet__item">
+                <img src="img/bbva-PhotoRoom.png" class="img-thumbnail" alt="bbva">
+              </div>
+
+              <div class="col-6 col-md-4 col-lg-2 wallet__item">
+                <img src="img/visa-PhotoRoom.png" class="img-thumbnail" alt="visa">
+              </div>
+
+              <div class="col-6 col-md-4 col-lg-2 wallet__item">
+                <img src="img/mercadopago-PhotoRoom.png" class="img-thumbnail" alt="mercadopago">
+              </div>
+
+              <div class="col-6 col-md-4 col-lg-2 wallet__item">
+                <img src="img/citibank-PhotoRoom.png" class="img-thumbnail" alt="citibank">
+              </div>            
+            </div>
+          </div>
+        </section>
+
+
+        <!--CONTACT SECTION-->
+        <section id="contact" class="text-center bg-light">
+          <h2 class="my-3">Contactanos</h2>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-icon"><i class="fas fa-map-marker-alt"></i></div>
+                  <div class="card-body">
+                    <h3 class="card-title">Ubicación</h3>
+                    <p class="card-text">Calle 123</p>
+                    <p class="card-text">Ciudad Madero</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-icon"><i class="fas fa-phone-alt"></i></div>
+                  <div class="card-body">
+                    <h3 class="card-title">Teléfonos</h3>
+                    <p class="card-text">11-2233-4455</p>
+                    <p class="card-text">11-2345-6789</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-icon"><i class="fas fa-clock"></i></div>
+                  <div class="card-body">
+                    <h3 class="card-title">Horarios</h3>
+                    <p class="card-text">Lunes a viernes: 8hs a 12:30 / 16:30 a 20hs</p>
+                    <p class="card-text">Sabados y feriados: 8 a 13:30hs</p>
+                  </div>
+                </div>
+              </div>
+
+              
+
+              
+
+              
+
+              <div class="card col-md-6 col-lg-3">
+                <div class="card-icon"><i class="fas fa-envelope"></i></div>
+                <div class="card-body">
+                  <h3 class="card-title">Correo</h3>
+                  <p class="card-text">casadivano@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>  
+
+        
+
+
+
+
+      </div>
+
+
+    </main>
+
+
+
+
+    <!-- Footer -->
+      <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+
+        
+
+          <!-- Section: Text -->
+          <section class="mb-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+              repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+              eum harum corrupti dicta, aliquam sequi voluptate quas.
+            </p>
+          </section>
+          <!-- Section: Text -->
+
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row justify-content-center">
+              <!--Grid column-->
+              <div class="col-lg-3 col-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Navigation</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#home" class="text-white">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about" class="text-white">About us</a>
+                  </li>
+                  <li>
+                    <a href="#store" class="text-white">Catálogo</a>
+                  </li>
+                  <li>
+                    <a href="#wallet" class="text-white">Cartera</a>
+                  </li>
+                  <li>
+                    <a href="#contact" class="text-white">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-3 col-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Redes</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Instagram</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Facebook</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Whatsapp</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Casa Divano Web</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-3 col-6 mb-4 mb-md-0 footer__encontranos">
+                <h5 class="text-uppercase">Location</h5>
+                <p>Calle 123, Ciudad Madero, Buenos Aires, Argentina.</p>
+                <p>Lunes a viernes: 8hs a 12:30 / 16:30 a 20hs</p>
+                <p>Sabados y feriados: 8 a 13:30hs</p>
+                <p>Teléfonos: 11-2233-4455 / 11-2345-6789</p>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">Elnari Producciones.</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+body{
+	background-color: black;
+
+}
+
+
+.img-thumbnail{
+    width: 100%;
+    height: 100%;
+    border-radius: 8%;
+}
+
+.card{
+	margin: .5rem 0;
+	color: black;
+}
+
+.divider{
+	background-color: #eee;
+}
+
+.bg-image{
+	background-image: url('../img/home2.jpg');
+	height: 100vh;
+}
+
+.card-icon{
+	font-size: 3rem;
+}
+
+.wallet__item{
+	margin: .2rem 0;
+}
+
+
+.footer__encontranos{
+	font-size: .8rem;
+}
+.footer__encontranos p{
+	margin-bottom: 0;
+}
